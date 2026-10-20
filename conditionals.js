@@ -27,3 +27,8 @@ if (a > b && a > c) {
 } else {
   console.log(`a=${a}, b=${b} and c=${c} all are equal.`);
 }
+
+// ternary operator : shorthand way for if....else
+let age=18;
+let result=age>=18?"Adult":"Minor"
+console.log(result);
