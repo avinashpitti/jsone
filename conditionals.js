@@ -32,3 +32,31 @@ if (a > b && a > c) {
 let age=18;
 let result=age>=18?"Adult":"Minor"
 console.log(result);
+
+// switch statement: it is cleaner than if,else if and else with
+// switch ,case and break
+
+let day="Wednesday"
+switch(day.toLowerCase()){
+    case "monday":
+        console.log("start of the week");
+        break;
+    case "tuesday":
+        console.log("second day of the workweek");
+        break;
+    case "wednesday":
+        console.log("midweek! It's wednesday");
+        break;
+    case "thursday":
+        console.log("It's thursday");
+        break;
+    case "friday":
+        console.log("It's last working day of the week");
+        break;
+    case "saturday":
+    case "sunday":
+        console.log("It's weekend");
+        break;
+    default:
+        console.log("Invalid day entered.");
+}
