@@ -68,3 +68,9 @@ const cart=[10,20,30,40];
 const total=cart.reduce((sum,price)=>sum+price,0);
 // the 0 is the initial value of the sum(accumulator)
 console.log(total);
+
+// forEach() : when you want to do something(no return)
+let some_nums=[1,2,3,4,5]
+some_nums.forEach(n=>{
+    console.log(n)
+})
