@@ -38,3 +38,14 @@ console.log(person);
 
 person.name='Alex';
 console.log(person);
+
+// methods in object: A method is a function inside an object
+let user={
+    uname:"srinivas",
+    age:22,
+    city:"Bengaluru",
+    greet:function(){
+        return `I am ${this.uname} a ${this.age} year old guy living in ${this.city}`
+    }
+}
+console.log(user.greet());
