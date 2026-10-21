@@ -50,3 +50,12 @@ console.log(fruits.sort())
 let numbers=[34,7,19,2,44]
 console.log(nums.sort((a,b)=>a-b))
 console.log(nums.sort((a,b)=>b-a))
+
+// map() : Transform each element in an array
+let values=[1,2,3,4]
+let doubled=values.map(values=>values*2)
+let squared=values.map(values=>values**2)
+console.log(doubled);
+console.log(squared);
+
+
