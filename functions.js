@@ -27,3 +27,10 @@ function rest(a,b,c,...d){
     console.log(d)
 }
 rest(1,2,3,4,5,6,7,8)
+
+// Destructuring parameters
+function gret({name,age}){
+    console.log(name);
+    console.log(age);
+}
+gret({name:'Avi',age:22})
