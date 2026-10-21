@@ -22,3 +22,12 @@ let arr=[10,20,30,40,20,40,25,40]
 console.log(arr.indexOf(20)) // first occurrence of 20
 console.log(arr.lastIndexOf(40)) // last occurence of 40
 console.log(arr.find(x=>x>20)) // the immediate value >20
+
+//slice : It doens't support skip start and step value in JS
+const fruits=["apple","banana","avocado","berry","cherry","dragon",]
+console.log(fruits);
+console.log(fruits.slice(1,3))
+console.log(fruits.slice(1,))
+console.log(fruits.slice(1))
+console.log(fruits.slice(-2)) // prints last 2 elements
+console.log(fruits.slice().reverse())
