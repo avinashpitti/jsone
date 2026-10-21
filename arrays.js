@@ -62,3 +62,9 @@ console.log(squared);
 let pickodds=[1,2,3,4,5]
 let odds=pickodds.filter(p=>p%2===1)
 console.log(odds)
+
+//reduce: It takes an entire array and reduces it down to a single value
+const cart=[10,20,30,40];
+const total=cart.reduce((sum,price)=>sum+price,0);
+// the 0 is the initial value of the sum(accumulator)
+console.log(total);
