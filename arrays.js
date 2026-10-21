@@ -41,3 +41,12 @@ const removed=colors.splice(1,1,'violet','indigo','yellow')
 console.log(removed)
 console.log(colors);
 console.log(colors.indexOf("blue"))
+
+// sort array
+let frts=['mango','banana','avocado','apple','berry']
+console.log(fruits.sort())
+
+// numbers need a compare function, it doens't work directly as strings.
+let numbers=[34,7,19,2,44]
+console.log(nums.sort((a,b)=>a-b))
+console.log(nums.sort((a,b)=>b-a))
