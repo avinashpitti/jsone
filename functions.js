@@ -34,3 +34,14 @@ function gret({name,age}){
     console.log(age);
 }
 gret({name:'Avi',age:22})
+
+
+// generator function
+function* nums(){
+    yield 10;
+    yield 20;
+    yield 30;
+}
+for(let num of nums()){
+    console.log(num);
+}
