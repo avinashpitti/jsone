@@ -31,3 +31,13 @@ console.log(fruits.slice(1,))
 console.log(fruits.slice(1))
 console.log(fruits.slice(-2)) // prints last 2 elements
 console.log(fruits.slice().reverse())
+
+// splice :It adds,removes,replaces directly to the array
+const colors=['red','green','blue']
+console.log(colors);
+const removed=colors.splice(1,1,'violet','indigo','yellow')
+// The above syntax means start at index 1,remove 1 element,then insert those 3 colors
+
+console.log(removed)
+console.log(colors);
+console.log(colors.indexOf("blue"))
