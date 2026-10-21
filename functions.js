@@ -12,3 +12,7 @@ function greeting(myname){
 console.log(greeting("Rajesh"))
 console.log(greeting("Kiran"));
 
+const greet=(ename)=>{
+    return `Hello, ${ename}`
+};
+console.log(greet("jiangxi"));
