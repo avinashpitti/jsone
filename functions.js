@@ -45,3 +45,13 @@ function* nums(){
 for(let num of nums()){
     console.log(num);
 }
+
+// async: makes function return a promise
+// await: pauses the function, wait for the promise to resolve
+async function fetchData() {
+    console.log("start");
+    await new Promise(resolve=>setTimeout(resolve,3000));
+    // 3000 is equals to 3 seconds
+    console.log("End");
+}
+fetchData();
