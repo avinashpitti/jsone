@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector</title>
+</head>
+<body>
+    <p>para 1</p>
+    <p>para 2</p>
+    <p>para 3</p>
+    <h1 id="demo"></h1>
+    <script>
+        // query selector doesn't care if you are looking for an ID,Class or a Tag.
+        // you just use the same symbol you use in your css file
+        const x=document.querySelector("p");
+        x.innerHTML="only first para is considered"
+        const a=document.querySelectorAll('p');
+        a[0].style.color='yellow';
+        a.forEach(p => {
+            p.style.backgroundColor="yellow";
+        });
+    </script>
+</body>
+</html>
