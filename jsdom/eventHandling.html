@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<body>
+    <button id="btn">Click Me!</button>
+    <input type="text" id="inputBox">
+    <h2 id="output"></h2>
+    <script>
+        let btn=document.getElementById("btn");
+        btn.onclick=function(){
+            alert("button is clicked");
+        }
+
+        document.getElementById("inputBox").addEventListener("input",function(e){
+            document.getElementById("output").innerText=e.target.value;
+        });
+    </script>
+</body>
+</html>
