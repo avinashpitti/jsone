@@ -58,4 +58,7 @@ let squared=values.map(values=>values**2)
 console.log(doubled);
 console.log(squared);
 
-
+// filter: when you want to filter
+let pickodds=[1,2,3,4,5]
+let odds=pickodds.filter(p=>p%2===1)
+console.log(odds)
